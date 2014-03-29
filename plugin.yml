@@ -1,0 +1,12 @@
+author: BOBNOTBUILDING
+description: Stop players from dropping items, and more! Configurable!
+main: 
+name: AntiDrops
+startup: postworld
+version: 0.8-DEV
+commands:
+  antidrops:
+    usage: /antidrops cleanup
+    permission: antidrops.admin
+    permission-message: You don't have permission.
+    description: The main antidrops command.
